@@ -1,3 +1,8 @@
+// Copyright (c) [2020] [Takanori Okawa]
+
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+
 <template>
   <div id="app">
     <div id="nav">
