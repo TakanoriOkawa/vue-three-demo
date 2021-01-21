@@ -19,6 +19,7 @@ export default {
         antialias: true,
       })
 
+      
       renderer.setClearColor("#e5e5e5");
       renderer.setSize(innerWidth,innerHeight);
       renderer.setPixelRatio(window.devicePixelRatio);
@@ -34,6 +35,7 @@ export default {
         camera.updateProjectionMatrix();
       })
 
+      
       const controls = new OrbitControls(camera, renderer.domElement);
       controls.enableDamping = true;
       controls.dampingFactor = 0.25;
